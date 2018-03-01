@@ -96,6 +96,7 @@ app.use('/help', express.static(__dirname + '/../res/help'));
 app.use('/gen_src', express.static(__dirname + '/../generated_src'));
 app.use('/src', express.static(__dirname + '/../src'));
 app.use('/plugins', express.static(__dirname + '/../plugins'));
+app.use('/dependencies', express.static(__dirname + '/../dependencies'));
 app.use('/integrations', express.static(__dirname + '/../integrations'));
 
 app.get('/', function (req, res) {

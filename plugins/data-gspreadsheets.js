@@ -22,7 +22,7 @@ highed.plugins.import.install('Google Spreadsheets', {
         }
     },
     dependencies: [
-        'https://code.jquery.com/jquery-2.2.4.min.js'
+        'dependencies/jquery-2.2.4.min.js'
     ],
     request: function (url, options, fn) {
         fn(false, {
