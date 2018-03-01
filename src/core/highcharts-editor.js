@@ -577,7 +577,7 @@ var highed = {
       includeHighcharts: true,
       cloudAPIURL: 'https://cloud-api.highcharts.com/',
       helpImgPath: 'help/',
-      thumbnailURL: 'https://cloud.highcharts.com/static/thumbnails/'
+      thumbnailURL: '../src/thumbnails/'
     },
     cdnScripts = [
       'https://code.highcharts.com/stock/highstock.js',

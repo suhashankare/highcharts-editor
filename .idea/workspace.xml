@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b469b5fb-d743-4f10-baeb-0045349961e5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dependencies/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dependencies/exporting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dependencies/funnel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dependencies/highcharts-3d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dependencies/highcharts-more.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dependencies/highstock.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dependencies/solid-gauge.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dependencies/standalone-framework.js" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\abutix.svg" afterPath="$PROJECT_DIR$/src/thumbnails/abutix.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\abywon.svg" afterPath="$PROJECT_DIR$/src/thumbnails/abywon.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\acemyq.svg" afterPath="$PROJECT_DIR$/src/thumbnails/acemyq.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\acijil.svg" afterPath="$PROJECT_DIR$/src/thumbnails/acijil.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\agonam.svg" afterPath="$PROJECT_DIR$/src/thumbnails/agonam.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\ahimym.svg" afterPath="$PROJECT_DIR$/src/thumbnails/ahimym.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\ahyqyx.svg" afterPath="$PROJECT_DIR$/src/thumbnails/ahyqyx.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\ajogud.svg" afterPath="$PROJECT_DIR$/src/thumbnails/ajogud.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\akeduw.svg" afterPath="$PROJECT_DIR$/src/thumbnails/akeduw.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\alyqyz.svg" afterPath="$PROJECT_DIR$/src/thumbnails/alyqyz.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\anofof.svg" afterPath="$PROJECT_DIR$/src/thumbnails/anofof.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\apocob.svg" afterPath="$PROJECT_DIR$/src/thumbnails/apocob.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\arutag.svg" afterPath="$PROJECT_DIR$/src/thumbnails/arutag.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\atikon.svg" afterPath="$PROJECT_DIR$/src/thumbnails/atikon.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\awuhad.svg" afterPath="$PROJECT_DIR$/src/thumbnails/awuhad.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\ecexev.svg" afterPath="$PROJECT_DIR$/src/thumbnails/ecexev.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\efygam.svg" afterPath="$PROJECT_DIR$/src/thumbnails/efygam.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\ehuvoh.svg" afterPath="$PROJECT_DIR$/src/thumbnails/ehuvoh.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\epodat.svg" afterPath="$PROJECT_DIR$/src/thumbnails/epodat.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\eracar.svg" afterPath="$PROJECT_DIR$/src/thumbnails/eracar.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\erifer.svg" afterPath="$PROJECT_DIR$/src/thumbnails/erifer.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\etakof.svg" afterPath="$PROJECT_DIR$/src/thumbnails/etakof.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\etybef.svg" afterPath="$PROJECT_DIR$/src/thumbnails/etybef.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\exajib.svg" afterPath="$PROJECT_DIR$/src/thumbnails/exajib.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\exumeq.svg" afterPath="$PROJECT_DIR$/src/thumbnails/exumeq.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\exypor.svg" afterPath="$PROJECT_DIR$/src/thumbnails/exypor.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\ezatat.svg" afterPath="$PROJECT_DIR$/src/thumbnails/ezatat.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\icytes.svg" afterPath="$PROJECT_DIR$/src/thumbnails/icytes.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\idagib.svg" afterPath="$PROJECT_DIR$/src/thumbnails/idagib.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\igipeg.svg" afterPath="$PROJECT_DIR$/src/thumbnails/igipeg.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\ihilaq.svg" afterPath="$PROJECT_DIR$/src/thumbnails/ihilaq.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\iluryh.svg" afterPath="$PROJECT_DIR$/src/thumbnails/iluryh.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\imykus.svg" afterPath="$PROJECT_DIR$/src/thumbnails/imykus.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\inebav.svg" afterPath="$PROJECT_DIR$/src/thumbnails/inebav.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\iporos.svg" afterPath="$PROJECT_DIR$/src/thumbnails/iporos.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\iqagel.svg" afterPath="$PROJECT_DIR$/src/thumbnails/iqagel.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\ivetir.svg" afterPath="$PROJECT_DIR$/src/thumbnails/ivetir.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\iwanyg.svg" afterPath="$PROJECT_DIR$/src/thumbnails/iwanyg.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\iwyfes.svg" afterPath="$PROJECT_DIR$/src/thumbnails/iwyfes.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\izoqyx.svg" afterPath="$PROJECT_DIR$/src/thumbnails/izoqyx.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\obulek.svg" afterPath="$PROJECT_DIR$/src/thumbnails/obulek.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\odopic.svg" afterPath="$PROJECT_DIR$/src/thumbnails/odopic.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\ogixak.svg" afterPath="$PROJECT_DIR$/src/thumbnails/ogixak.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\ogywen.svg" afterPath="$PROJECT_DIR$/src/thumbnails/ogywen.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\ojixow.svg" afterPath="$PROJECT_DIR$/src/thumbnails/ojixow.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\ojykiw.svg" afterPath="$PROJECT_DIR$/src/thumbnails/ojykiw.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\omikax.svg" afterPath="$PROJECT_DIR$/src/thumbnails/omikax.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\opilip.svg" afterPath="$PROJECT_DIR$/src/thumbnails/opilip.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\oqajux.svg" afterPath="$PROJECT_DIR$/src/thumbnails/oqajux.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\oriwyb.svg" afterPath="$PROJECT_DIR$/src/thumbnails/oriwyb.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\orixis.svg" afterPath="$PROJECT_DIR$/src/thumbnails/orixis.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\otupaz.svg" afterPath="$PROJECT_DIR$/src/thumbnails/otupaz.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\ovobiq.svg" afterPath="$PROJECT_DIR$/src/thumbnails/ovobiq.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\ovuvul.svg" afterPath="$PROJECT_DIR$/src/thumbnails/ovuvul.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\oxenux.svg" afterPath="$PROJECT_DIR$/src/thumbnails/oxenux.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\ozojul.svg" afterPath="$PROJECT_DIR$/src/thumbnails/ozojul.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\ubopaq.svg" afterPath="$PROJECT_DIR$/src/thumbnails/ubopaq.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\udepat.svg" afterPath="$PROJECT_DIR$/src/thumbnails/udepat.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\ufafag.svg" afterPath="$PROJECT_DIR$/src/thumbnails/ufafag.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\ukaqor.svg" afterPath="$PROJECT_DIR$/src/thumbnails/ukaqor.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\upafes.svg" afterPath="$PROJECT_DIR$/src/thumbnails/upafes.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\upaxab.svg" afterPath="$PROJECT_DIR$/src/thumbnails/upaxab.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\uqonaj.svg" afterPath="$PROJECT_DIR$/src/thumbnails/uqonaj.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\usyfyw.svg" afterPath="$PROJECT_DIR$/src/thumbnails/usyfyw.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\uvepiw.svg" afterPath="$PROJECT_DIR$/src/thumbnails/uvepiw.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\uxyfys.svg" afterPath="$PROJECT_DIR$/src/thumbnails/uxyfys.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\vg.svg" afterPath="$PROJECT_DIR$/src/thumbnails/vg.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\ycehiz.svg" afterPath="$PROJECT_DIR$/src/thumbnails/ycehiz.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\ydaqok.svg" afterPath="$PROJECT_DIR$/src/thumbnails/ydaqok.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\ydypal.svg" afterPath="$PROJECT_DIR$/src/thumbnails/ydypal.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\yhekaq.svg" afterPath="$PROJECT_DIR$/src/thumbnails/yhekaq.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\ynikoc.svg" afterPath="$PROJECT_DIR$/src/thumbnails/ynikoc.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\ypepug.svg" afterPath="$PROJECT_DIR$/src/thumbnails/ypepug.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\ypewak.svg" afterPath="$PROJECT_DIR$/src/thumbnails/ypewak.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\yqenid.svg" afterPath="$PROJECT_DIR$/src/thumbnails/yqenid.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\yqoxob.svg" afterPath="$PROJECT_DIR$/src/thumbnails/yqoxob.svg" />
+      <change type="MOVED" beforePath="C:\Users\Shuhash\WebstormProjects\highcharts-editor\thumbnails\yxajih.svg" afterPath="$PROJECT_DIR$/src/thumbnails/yxajih.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/core/highcharts-editor.js" afterPath="$PROJECT_DIR$/src/core/highcharts-editor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layouts/main.handlebars" afterPath="$PROJECT_DIR$/views/layouts/main.handlebars" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+    </list>
+    <ignored path="highcharts-editor.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="highcharts-editor" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.384615">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="highcharts-editor.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/core/highcharts-editor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.23954803">
+              <caret line="568" column="25" selection-start-line="568" selection-start-column="25" selection-end-line="568" selection-end-column="25" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="highed.editor.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/editors/highed.editor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.handlebars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/layouts/main.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.2692308">
+              <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/node_modules/accord/lib/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/accord/package.json" />
+        <option value="$PROJECT_DIR$/src/core/highcharts-editor.js" />
+        <option value="$PROJECT_DIR$/views/layouts/main.handlebars" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="y" value="2" />
+    <option name="width" value="1932" />
+    <option name="height" value="1045" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="highcharts-editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="highcharts-editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="highcharts-editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="highcharts-editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="highcharts-editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="highcharts-editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="highcharts-editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Shuhash\WebstormProjects\highcharts-editor" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Shuhash\WebstormProjects\highcharts-editor\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b469b5fb-d743-4f10-baeb-0045349961e5" name="Default" comment="" />
+      <created>1519917462264</created>
+      <option name="number" value="Default" />
+      <updated>1519917462264</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="2" width="1932" height="1045" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.250264" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32858709" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/node_modules/gulp-less/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gulp-less/README.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gulp-less/Changelog.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.53817505">
+            <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gulp-less/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.93793106">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/accord/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/accord/.npmignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09781358">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/accord/node_modules/glob/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38701922">
+          <caret line="51" column="8" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/accord/node_modules/glob/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/accord/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36658654">
+          <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/accord/node_modules/glob/glob.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3671329">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/accord/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6037296">
+          <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/editors/highed.modaleditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5762712">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencies/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.384615">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thumbnails/abutix.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="76" selection-start-line="0" selection-start-column="76" selection-end-line="0" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/editors/highed.editor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/main.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thumbnails/vg.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/highcharts-editor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23954803">
+          <caret line="568" column="25" selection-start-line="568" selection-start-column="25" selection-end-line="568" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
