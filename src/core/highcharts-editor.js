@@ -762,10 +762,10 @@ var highed = {
   //Inject dependencies
   highed.ready(function() {
     highed.include(
-      'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css'
+      '/dependencies/font-awesome.min.css'
     );
     highed.include(
-      'https://fonts.googleapis.com/css?family=Roboto:400,300,100,700|Source Sans:400,300,100',
+      '/dependencies/css.css',
       false,
       true
     );

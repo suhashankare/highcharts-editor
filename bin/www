@@ -52,7 +52,9 @@ function appendFilesFromProduct(prodName) {
         var f;
 
         try {
+            console.log(path, folder)
           f = fs.readdirSync(path + folder);
+
           
           if (f) {
               f.forEach(function (f) {
@@ -71,7 +73,7 @@ function appendFilesFromProduct(prodName) {
     include('validators');
     include('samples');
     include('templates');
-    include('ui');
+    //include('ui');
 
 }
 
@@ -170,6 +172,15 @@ app.get('/dtable', function (req, res) {
     updateFiles();
 
     res.render('dtable', {
+        scripts: files,
+        package: package,
+        title: 'Highcharts Editor - Data Table'
+    });
+});
+app.get('/ui-test', function (req, res) {
+    updateFiles();
+
+    res.render('ui-test', {
         scripts: files,
         package: package,
         title: 'Highcharts Editor - Data Table'

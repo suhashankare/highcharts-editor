@@ -10,7 +10,25 @@
 
 <script>
 
-    highed.ready(function () {
+    var modal = highed.ModalEditor(false, {
+                features: 'import templates customize welcome done',
+                allowDone: true
+            }, function (chart) {
+                var html = chart.export.html(true);
+                $('#chart-result').val(html);
+            })
+            ;
+
+    $('#modal-btn').on('click',function(){
+        modal.attachToSummoner($(this));
+        modal.show();
+    });
+
+    $('.highed-dimmer').on('click', function(){
+        modal.hide();
+    });
+
+   /* highed.ready(function () {
         highed.ModalEditor('modal-btn', {
            // features: 'import templates',
             allowDone: true,
@@ -22,6 +40,7 @@
             var html = chart.export.html(true);
             highed.dom.get('chart-result').value = html;
         });
-    });
+
+    });*/
 
 </script>
