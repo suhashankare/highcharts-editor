@@ -346,6 +346,7 @@ highed.meta.optionsExtended = {
             dataType: 'boolean',
             context: 'General',
             defaults: 'false',
+            parent: 'yAxis',
             parent: 'yAxis'
           },
           {

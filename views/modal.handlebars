@@ -3,7 +3,7 @@
     <br/><br/>
     Result:
     <br/><br/>
-    <textarea id="chart-result" class="highed-box-size" style="font-family:monospace;width:100%;height:400px"></textarea>
+    <div id="chart-result" class="highed-box-size" style="font-family:monospace;width:100%;height:400px"></div>
     <br/><br/>
     <button id="modal-btn" class="highed-imp-button">Create a chart</button>
 </div>
@@ -14,8 +14,10 @@
                 features: 'import templates customize welcome done',
                 allowDone: true
             }, function (chart) {
-                var html = chart.export.html(true);
-                $('#chart-result').val(html);
+                var json = chart.export.json(true);
+               // $('#chart-result').val(JSON.stringify(json));
+                //console.log(JSON.stringify(json));
+                Highcharts.chart('chart-result',json);
             })
             ;
 
@@ -28,6 +30,33 @@
         modal.hide();
     });
 
+    highed.templates.add('Combinations', {
+        title: 'Bar & Line',
+        thumbnail: '',
+        config: {
+            series: [
+                {type: 'column'},
+                {type: 'line',yAxis: 1}
+            ],
+            yAxis: [{
+                title: {
+                    text: 'Employees'
+                },
+                opposite: true
+            }, {
+                title: {
+                    text: 'Profit (millions)'
+                }
+            }],
+            plotOptions: {
+                column: {
+                    grouping: false,
+                    shadow: false,
+                    borderWidth: 0
+                }
+            }
+        }
+    });
    /* highed.ready(function () {
         highed.ModalEditor('modal-btn', {
            // features: 'import templates',
