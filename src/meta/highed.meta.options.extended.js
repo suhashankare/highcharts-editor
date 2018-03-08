@@ -242,6 +242,251 @@ highed.meta.optionsExtended = {
         ]
       }
     ],
+    'option.cat.themes': [
+      {
+        text: 'option.subcat.theme.default',
+        options: [
+          {
+            text: 'option.subcat.fonts',
+            options: [
+              {
+                id: 'chart--style',
+                dataType: 'font',
+                pid: 'chart.style',
+                context: 'General',
+                defaults:
+                    '{"fontFamily":"\\"Lucida Grande\\", \\"Lucida Sans Unicode\\", Verdana, Arial, Helvetica, sans-serif","fontSize":"12px"}',
+                parent: 'chart'
+              },
+              {
+                id: 'title--style',
+                dataType: 'font',
+                pid: 'title.style',
+                context: 'General',
+                defaults: '{ "color": "#333333", "fontSize": "18px" }',
+                parent: 'title'
+              },
+              {
+                id: 'subtitle--style',
+                dataType: 'font',
+                pid: 'subtitle.style',
+                context: 'General',
+                defaults: '{ "color": "#666666" }',
+                parent: 'subtitle'
+              },
+              {
+                id: 'colors',
+                pid: 'colors',
+                dataType: 'array<color>',
+                context: 'General',
+                defaults:
+                    '[ "#434348" , "#90ed7d" , "#f7a35c", "#e4d354" , "#2b908f" , "#f45b5b" ]'
+              },
+              {
+                id: 'chart--backgroundColor',
+                pid: 'chart.backgroundColor',
+                dataType: 'color',
+                context: 'General',
+                defaults: '#FFFFFF',
+                parent: 'chart'
+              },
+              {
+                id: 'chart--borderWidth',
+                custom: {
+                  minValue: 0
+                },
+                pid: 'chart.borderWidth',
+                dataType: 'number',
+                context: 'General',
+                defaults: '0',
+                parent: 'chart'
+              },
+              {
+                id: 'chart--borderRadius',
+                custom: {
+                  minValue: 0
+                },
+                pid: 'chart.borderRadius',
+                dataType: 'number',
+                context: 'General',
+                defaults: '0',
+                parent: 'chart'
+              },
+              {
+                id: 'chart--borderColor',
+                pid: 'chart.borderColor',
+                dataType: 'color',
+                context: 'General',
+                defaults: '#335cad',
+                parent: 'chart'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        text: 'option.subcat.theme.default.light',
+        options: [
+          {
+            text: 'option.subcat.fonts',
+            options: [
+              {
+                id: 'chart--style',
+                dataType: 'font',
+                pid: 'chart.style',
+                context: 'General',
+                defaults:
+                    '{"fontFamily":"\\"Lucida Grande\\", \\"Lucida Sans Unicode\\", Verdana, Arial, Helvetica, sans-serif","fontSize":"12px"}',
+                parent: 'chart'
+              },
+              {
+                id: 'title--style',
+                dataType: 'font',
+                pid: 'title.style',
+                context: 'General',
+                defaults: '{ "color": "#333333", "fontSize": "18px" }',
+                parent: 'title'
+              },
+              {
+                id: 'subtitle--style',
+                dataType: 'font',
+                pid: 'subtitle.style',
+                context: 'General',
+                defaults: '{ "color": "#666666" }',
+                parent: 'subtitle'
+              },
+              {
+                id: 'colors',
+                pid: 'colors',
+                dataType: 'array<color>',
+                context: 'General',
+                defaults:
+                    '[ "#7cb5ec" , "#434348" , "#90ed7d", "#f45b5b" , "#91e8e1"]'
+              },
+              {
+                id: 'chart--backgroundColor',
+                pid: 'chart.backgroundColor',
+                dataType: 'color',
+                context: 'General',
+                defaults: '#FFFFFF',
+                parent: 'chart'
+              },
+              {
+                id: 'chart--borderWidth',
+                custom: {
+                  minValue: 0
+                },
+                pid: 'chart.borderWidth',
+                dataType: 'number',
+                context: 'General',
+                defaults: '0',
+                parent: 'chart'
+              },
+              {
+                id: 'chart--borderRadius',
+                custom: {
+                  minValue: 0
+                },
+                pid: 'chart.borderRadius',
+                dataType: 'number',
+                context: 'General',
+                defaults: '0',
+                parent: 'chart'
+              },
+              {
+                id: 'chart--borderColor',
+                pid: 'chart.borderColor',
+                dataType: 'color',
+                context: 'General',
+                defaults: '#335cad',
+                parent: 'chart'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        text: 'option.subcat.theme.default.dark',
+        options: [
+          {
+            text: 'option.subcat.fonts',
+            options: [
+              {
+                id: 'chart--style',
+                dataType: 'font',
+                pid: 'chart.style',
+                context: 'General',
+                defaults:
+                    '{"fontFamily":"\\"Lucida Grande\\", \\"Lucida Sans Unicode\\", Verdana, Arial, Helvetica, sans-serif","fontSize":"12px"}',
+                parent: 'chart'
+              },
+              {
+                id: 'title--style',
+                dataType: 'font',
+                pid: 'title.style',
+                context: 'General',
+                defaults: '{ "color": "#333333", "fontSize": "18px" }',
+                parent: 'title'
+              },
+              {
+                id: 'subtitle--style',
+                dataType: 'font',
+                pid: 'subtitle.style',
+                context: 'General',
+                defaults: '{ "color": "#666666" }',
+                parent: 'subtitle'
+              },
+              {
+                id: 'colors',
+                pid: 'colors',
+                dataType: 'array<color>',
+                context: 'General',
+                defaults:
+                    '["#f15c80" , "#e4d354" , "#2b908f" , "#f45b5b" , "#91e8e1"]'
+              },
+              {
+                id: 'chart--backgroundColor',
+                pid: 'chart.backgroundColor',
+                dataType: 'color',
+                context: 'General',
+                defaults: '#FFFFFF',
+                parent: 'chart'
+              },
+              {
+                id: 'chart--borderWidth',
+                custom: {
+                  minValue: 0
+                },
+                pid: 'chart.borderWidth',
+                dataType: 'number',
+                context: 'General',
+                defaults: '0',
+                parent: 'chart'
+              },
+              {
+                id: 'chart--borderRadius',
+                custom: {
+                  minValue: 0
+                },
+                pid: 'chart.borderRadius',
+                dataType: 'number',
+                context: 'General',
+                defaults: '0',
+                parent: 'chart'
+              },
+              {
+                id: 'chart--borderColor',
+                pid: 'chart.borderColor',
+                dataType: 'color',
+                context: 'General',
+                defaults: '#335cad',
+                parent: 'chart'
+              }
+            ]
+          }
+        ]
+      }
+    ],
     'option.cat.axes': [
       {
         text: 'option.subcat.axessetup',
