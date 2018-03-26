@@ -479,6 +479,9 @@ highed.ChartPreview = function(parent, attributes) {
       );
     }
 
+    //console.log(template);
+    //console.log(customizedOptions.yAxis);
+
     constr = template.constructor || 'Chart';
 
     highed.clearObj(templateOptions);
@@ -486,10 +489,18 @@ highed.ChartPreview = function(parent, attributes) {
     if (customizedOptions.xAxis) {
       delete customizedOptions.xAxis;
     }
-
-    if (customizedOptions.yAxis) {
+    if(template.title == "Bar & Line"){
       delete customizedOptions.yAxis;
+      customizedOptions.yAxis = [{opposite: false},{}];
+    }else{
+      if (customizedOptions.yAxis) {
+        delete customizedOptions.yAxis;
+      }
     }
+
+
+
+
 
     // highed.setAttr(customizedOptions, 'series', []);
 

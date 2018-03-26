@@ -102,6 +102,7 @@ highed.ChartTemplateSelector = function(parent, chartPreview) {
   }
 
   function showTemplates(templateList, masterID, catmeta) {
+
     var compatible = 0;
 
     templates.innerHTML = '';
@@ -110,6 +111,7 @@ highed.ChartTemplateSelector = function(parent, chartPreview) {
     if (catmeta) {
       buildCatMeta(catmeta);
     }
+
 
     highed.dom.ap(templates, catNode);
 

@@ -402,3 +402,26 @@ highed.ModalEditor = function (summoner, attributes, fn) {
         attachToSummoner: attachToSummoner
     };
 };
+
+highed.templates.add('Combinations', {
+    title: 'Bar & Line',
+    thumbnail: '',
+    config: {
+        series: [
+            {
+                type: 'column'
+            },
+            {
+                type: 'line',
+                yAxis: 1
+            }
+        ],
+        yAxis: [
+            {
+            },
+            {
+            }
+        ],
+        xAxis: {}
+    }
+});
