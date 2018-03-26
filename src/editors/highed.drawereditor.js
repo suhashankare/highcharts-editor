@@ -279,7 +279,33 @@ highed.DrawerEditor = function(parent, options) {
             customizer.resize(width, height);
           }
         }
-      }
+      },
+      theme: {
+              icon: 'fa-paint-brush',
+              title: 'Themes',
+              width: 800,
+              help: [
+                {
+                  title: 'Customize',
+                  description: [
+                    'The customize pane lets you customize your chart.<br/><br/>',
+                    'The customizer has three different sections:<br/>',
+                    '<li>Simple: A simple customizer with the most used options</li>',
+                    '<li>Advanced: All options available in Highcharts/Highstock can be set here</li>',
+                    '<li>Custom code: Here, properties can be overridden programatically</li>'
+                  ]
+                }
+              ],
+              create: function(body) {
+                highed.dom.ap(body, customizerContainer);
+                customizer.resize();
+              },
+              events: {
+                Expanded: function(width, height) {
+                  customizer.resize(width, height);
+                }
+              }
+            }
     },
     toolboxEntries,
     resolutions = {
@@ -357,6 +383,7 @@ highed.DrawerEditor = function(parent, options) {
     resize();
 
     properties.features.forEach(function(feature) {
+
       addOption(
         builtInOptions[feature] || customOptions[feature] || false,
         feature
