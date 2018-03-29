@@ -10,14 +10,19 @@
 
 <script>
 
-    var modal = highed.ModalEditor(false, {
+    var modal = new highed.ModalEditor(false, {
                 features: 'import templates theme customize welcome done',
                 allowDone: true
             }, function (chart) {
-                var json = chart.export.json(true);
+                var json = chart.toProjectStr();
+                var jsonData = chart.export.json(true);
+
+                console.log(json);
+
+                localStorage.setItem("saveChart",json);
                // $('#chart-result').val(JSON.stringify(json));
                 //console.log(JSON.stringify(json));
-                Highcharts.chart('chart-result',json);
+                Highcharts.chart('chart-result',jsonData);
             })
             ;
 

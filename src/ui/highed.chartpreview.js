@@ -491,16 +491,12 @@ highed.ChartPreview = function(parent, attributes) {
     }
     if(template.title == "Bar & Line"){
       delete customizedOptions.yAxis;
-      customizedOptions.yAxis = [{opposite: false},{}];
+      customizedOptions.yAxis = [{opposite: true},{}];
     }else{
       if (customizedOptions.yAxis) {
         delete customizedOptions.yAxis;
       }
     }
-
-
-
-
 
     // highed.setAttr(customizedOptions, 'series', []);
 

@@ -93,7 +93,10 @@ highed.ModalEditor = function (summoner, attributes, fn) {
 
         // load data if its avaliable
         window.setTimeout(function() {
-            editor.chart.loadProject(loadData);
+            var getData = localStorage.getItem("saveChart");
+            console.log(loadData);
+            console.log(JSON.parse(getData));
+            editor.chart.loadProject(JSON.parse(getData));
         }, 1000);
 
     }
@@ -103,7 +106,7 @@ highed.ModalEditor = function (summoner, attributes, fn) {
             fn(editor.chart);
 
             // save with Ajax Call
-            console.log(editor.chart.export.json(true));
+            console.log(editor.chart);
         }
         modal.hide();
     }
